@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 // import Banner from "./components/Banner";
 import FAQ from "./components/FAQ";
 import HomeBanner from "./components/HomeBanner";
+import Timeline from "./components/Timeline";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         {/* <Banner/> */}
         <HomeBanner/>
         <FAQ/>
+        <Timeline/>
         </div>
     
   )
