@@ -5,6 +5,7 @@ import FAQ from "./components/FAQ";
 import HomeBanner from "./components/HomeBanner";
 import Timeline from "./components/Timeline";
 import Sponsors from "./components/Sponsors";
+import Glimpses from "./components/Glimpses";
 
 const App = () => {
   return (
@@ -23,7 +24,8 @@ const App = () => {
         <HomeBanner/>        
         <Timeline/>
         <Sponsors/>
-        <FAQ/>
+        <Glimpses/>
+        <FAQ/>        
         </div>
     
   )
