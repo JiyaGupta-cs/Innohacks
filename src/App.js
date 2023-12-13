@@ -6,6 +6,7 @@ import HomeBanner from "./components/HomeBanner";
 import Timeline from "./components/Timeline";
 import Sponsors from "./components/Sponsors";
 import Glimpses from "./components/Glimpses";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -25,7 +26,8 @@ const App = () => {
         <Timeline/>
         <Sponsors/>
         <Glimpses/>
-        <FAQ/>        
+        <FAQ/>
+        <Footer/>        
         </div>
     
   )
