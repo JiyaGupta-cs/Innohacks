@@ -39,22 +39,22 @@ const Navbar = () => {
 					<NavMenu>
 						<NavItem>
 							<NavLinks href="#">
-								About
+								Timeline
 							</NavLinks>
 						</NavItem>
 						<NavItem>
 							<NavLinks href="#">
-								Services
+								Sponsors
 							</NavLinks>
 						</NavItem>
 						<NavItem>
 							<NavLinks href="#">
-								Events
+								Glimpses
 							</NavLinks>
 						</NavItem>
 						<NavItem>
 							<NavLinks href="#">
-								Contact
+								FAQs
 							</NavLinks>
 						</NavItem>
 						<NavItem>

@@ -199,7 +199,7 @@
     align-items: end;
     margin-right: 1.5rem;
     justify-content: center;
-    margin-top: -10px;
+    margin-top: -70px;
     
 }
 ._5-img{
@@ -247,4 +247,64 @@
         gap: 1rem;
     }
     .banner-text{width: 90vw;}
+}
+
+
+
+
+.container {
+  /* padding: 1vw; */
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* margin-right: -50%; */
+  /* transform: translate(-50%, -50%); */
+}
+
+.background-color p {
+  color: #000;
+  /* font-family: 'Prompt'; */
+  font-size: 10rem;
+  font-weight: bold;
+  /* letter-spacing: 1vw; */
+  max-width: 700px;
+  text-align: center;
+  background: rgba(255, 253, 160, 1);
+  /* background: -webkit-linear-gradient( left, #00ffff 0%, #FAAC4D 25%, #97b1fb 50%, #00ffff 100%) repeat; */
+
+  background: -webkit-linear-gradient( left, #00ffff 0%, #ffdb3b 25%, #FE53BB 50%, #00ffff 100%) repeat;
+
+  /* background: -webkit-linear-gradient( left, linear-gradient(#212121, #212121) 0%,  linear-gradient(137.48deg, #ffdb3b 10%,#FE53BB 45%, #8F51EA 67%, #0044ff 87%) repeat); */
+  /* background: -webkit-linear-gradient( left, #DD40D3 0%, #8D4DF7 20%,#8D4DF7 40%, #97fba0 60%, #97b1fb 80%, #00ffff 100%) repeat; */
+  -webkit-background-clip: text;
+  -ms-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-fill-color: transparent;
+  -webkit-animation-name: masked-animation;
+  -webkit-animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  animation-name: masked-animation;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+
+  /* font-family: 'Poppins', sans-serif; */
+font-family: 'Black Ops One';
+/* font-family: 'Space Grotesk', sans-serif; */
+}
+
+@keyframes masked-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -8000px -3000px;
+  }
 }
