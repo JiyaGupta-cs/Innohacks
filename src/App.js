@@ -1,7 +1,8 @@
 import React, { Fragment } from "react";
 import Navbar from './components/Navbar'
-import Banner from "./components/Banner";
+// import Banner from "./components/Banner";
 import FAQ from "./components/FAQ";
+import HomeBanner from "./components/HomeBanner";
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
             ></div>
         </Fragment>
 
-        <Banner/>
+        {/* <Banner/> */}
+        <HomeBanner/>
         <FAQ/>
         </div>
     
