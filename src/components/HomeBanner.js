@@ -1,6 +1,7 @@
 import React from 'react'
 import './HomeBanner.css'
 import inno from '../Assets/innohack.png'
+import _3_img from '../Assets/_3_img.png'
 
 const HomeBanner = () => {
   return (
@@ -11,7 +12,7 @@ const HomeBanner = () => {
 <img className='hack' src="https://res.cloudinary.com/dzxgf75bh/image/upload/v1702201459/HackNitr/Hero%20Section/kgjxmevu0bvj4yn7ojfy.gif" alt="" />
 </div>
 <div className="_5">
-<img  className="_5-img" src="https://res.cloudinary.com/dzxgf75bh/image/upload/v1702201281/HackNitr/Hero%20Section/b1iuqxt1meh81y8bxwbd.png" alt="" />
+<img  className="_5-img" src={_3_img} alt="" />
 </div>
         </div>
       <div className="banner-text">

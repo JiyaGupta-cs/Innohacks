@@ -205,7 +205,7 @@
 ._5-img{
     /* background-color: purple; */
     display: block;
-    width: 7rem;    
+    width: 11rem;    
 }
 .banner-innohack5{
     
@@ -220,14 +220,13 @@
 }
 @media only screen and (max-width: 600px) {
     .inno{
-        width: 45vw;
+        width: 48vw;
     }
     .hack{
-        width: 40vw;
+        width: 43vw;
     }
     ._5-img{
-        /* background-color: ; */
-        width: 14vw;
+        width: 20vw;
     }
     .innohack{
         gap: 0.5rem;
@@ -238,6 +237,7 @@
     }
     .banner-text{
         color: white;
+        font-size: 18px;
     }
     .page__wrapper{
         width: 90vw;
