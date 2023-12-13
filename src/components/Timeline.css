@@ -169,11 +169,11 @@ body {
     font-family: "Syne Mono";
     color: #fff;
     letter-spacing: 5px;
-    font-size: 2.6em;
+    font-size: 4em;
     margin-bottom: 30px;
     padding: 0px 15px;
 }
 .timeline{
-    /* font-family: "Syne Mono"; */
+    padding-top: 6.5rem;
 
 }

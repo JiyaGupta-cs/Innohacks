@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import FAQ from "./components/FAQ";
 import HomeBanner from "./components/HomeBanner";
 import Timeline from "./components/Timeline";
+import Sponsors from "./components/Sponsors";
 
 const App = () => {
   return (
@@ -19,9 +20,10 @@ const App = () => {
         </Fragment>
 
         {/* <Banner/> */}
-        <HomeBanner/>
-        <FAQ/>
+        <HomeBanner/>        
         <Timeline/>
+        <Sponsors/>
+        <FAQ/>
         </div>
     
   )

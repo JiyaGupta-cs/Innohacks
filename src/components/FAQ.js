@@ -10,7 +10,7 @@ const FAQ = () => {
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 
       <div class="page__wrapper">
-		<h1 class="heading">Frequently Asked Questions</h1>
+		<h1 class="faq-heading">Frequently Asked Questions</h1>
 		<div class="accordion">
 			<details>
 			  <summary>What are some random questions to ask?</summary>

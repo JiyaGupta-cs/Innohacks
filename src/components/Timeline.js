@@ -59,7 +59,7 @@ window.addEventListener("scroll", callbackFunc);
       <div class="discovery">
         <h1>Discovery</h1>
         <p>
-          Law of electrostatic attraction
+          Law of attraction
         </p>
       </div>
       <div class="scientist">
