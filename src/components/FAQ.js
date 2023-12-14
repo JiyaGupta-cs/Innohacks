@@ -3,7 +3,7 @@ import './FAQ.css'
 
 const FAQ = () => {
   return (
-    <div>
+    <div className='fq'>
         
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
 	<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet"/>

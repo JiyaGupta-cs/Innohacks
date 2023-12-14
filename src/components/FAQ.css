@@ -1,6 +1,11 @@
 /* body {
 	background-color: #282828;
 } */
+.fq{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .page__wrapper {
 	height: 100vh;
 	display: flex;
