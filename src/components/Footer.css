@@ -76,6 +76,7 @@
       .footer-logos{
         gap: 1rem;
         padding-bottom: 2rem;
+        flex-direction: column;
       }
   }
   
